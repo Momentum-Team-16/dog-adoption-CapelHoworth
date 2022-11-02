@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.color-box {
+  height: 2em;
+  background-color: #004175;
+  color: white;
+  margin-top: 0px;
+  font-family: OpenSans;
+  padding: 2em;
+  border-bottom: 0.2em solid #89deef;
+}
