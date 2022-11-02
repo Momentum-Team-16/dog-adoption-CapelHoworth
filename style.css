@@ -10,4 +10,17 @@
   font-family: OpenSans;
   padding: 2em;
   border-bottom: 0.2em solid #89deef;
+  margin: auto;
+  width: 60%;
+}
+.title {
+  height: 2em;
+  margin: auto;
+  width: 60%;
+  padding: 1em;
+}
+.adoption-form {
+  height: 2em;
+  margin: auto;
+  width: 60%;
 }
