@@ -46,6 +46,8 @@ body {
   min-height: auto;
   margin: auto;
   padding: 0 3em;
+  font-family: OpenSans;
+  font-size: 0.9em;
   /*width: 60.2%;*/
   /*background-color: white;*/
 }
@@ -95,7 +97,6 @@ footer {
 }
 
 .box {
-  border: 2px solid red;
   height: 100%;
   width: 33.33%;
   color: white;
@@ -107,13 +108,31 @@ footer {
 }
 
 .box-donate {
-  background-image: url(images/donate.jpeg);
+  background: linear-gradient(
+      rgba(166, 169, 240, 0.688),
+      rgba(166, 169, 240, 0.688)
+    ),
+    url(images/donate.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box-volunteer {
-  background-image: url(images/volunteer.jpeg);
+  background: linear-gradient(
+      rgba(166, 169, 240, 0.688),
+      rgba(166, 169, 240, 0.688)
+    ),
+    url(images/volunteer.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box-location {
-  background-image: url(images/location.png);
+  background: linear-gradient(
+      rgba(166, 169, 240, 0.688),
+      rgba(166, 169, 240, 0.688)
+    ),
+    url(images/location.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
