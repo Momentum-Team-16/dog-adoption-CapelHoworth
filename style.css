@@ -1,29 +1,41 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: lightgrey;
 }
+
+html {
+  background-color: rgb(232, 230, 230);
+}
+
+body {
+  margin: 0% 20%;
+  background-color: white;
+}
+
 .color-box {
   height: 2em;
   background-color: #004175;
   color: white;
   font-family: OpenSans;
-  padding: 2em;
+  padding: 2em 3em;
   border-bottom: 0.2em solid #89deef;
   margin: auto;
-  width: 60%;
+  /*width: 60%;*/
 }
 .title {
   height: 2em;
   margin: auto;
-  width: 60%;
-  padding: 1em;
+  /*width: 60%;*/
+  padding: 0.8em 2.7em;
+  font-family: OpenSans;
   /*background-color: white;*/
 }
 .adoption-form {
   height: 2em;
   margin: auto;
-  width: 60%;
+  padding: 0 3.2em;
+  font-family: OpenSans;
+  /*width: 60%;*/
 }
 #main {
   /*border: 4px solid black;
@@ -33,7 +45,8 @@
   flex-grow: 1;
   min-height: auto;
   margin: auto;
-  width: 60.2%;
+  padding: 0 3em;
+  /*width: 60.2%;*/
   /*background-color: white;*/
 }
 section {
@@ -70,11 +83,37 @@ section img {
   font-size: small;
 }
 
-.opaque {
+footer {
   height: 15em;
-  background-color: #a6a9f0;
-  margin: auto;
-  width: 60%;
+  /*margin: auto;
+  width: 60%;*/
   margin-bottom: 1em;
-  border-bottom: 2px solid gray;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  border: 2px solid red;
+  height: 100%;
+  width: 33.33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-family: Oswald;
+}
+
+.box-donate {
+  background-image: url(images/donate.jpeg);
+}
+
+.box-volunteer {
+  background-image: url(images/volunteer.jpeg);
+}
+
+.box-location {
+  background-image: url(images/location.png);
 }
